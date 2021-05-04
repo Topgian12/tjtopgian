@@ -1,0 +1,30 @@
+Body{
+    margin-left:150px;
+    background:url(montanha.jpg) no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+    transition:0.5s;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box h1{
+    color:blueviolet;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:30px;
+}
+
+.box{
+    width:300px;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: black;
+    text-align:center;
+    border-radius:23px;
+}
